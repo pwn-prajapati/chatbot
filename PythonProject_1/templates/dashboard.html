@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Analytics</title>
+</head>
+<body>
+    <h1>Chatbot Analytics Dashboard</h1>
+    <p><strong>Total Queries:</strong> {{ analytics_data.total_queries }}</p>
+    <p><strong>Average Rating:</strong> {{ analytics_data.average_rating }}</p>
+
+    <h2>Most Common Topics</h2>
+    <ul>
+        {% for topic, count in analytics_data.common_topics %}
+            <li>{{ topic }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if topic_chart %}
+        <h2>Topic Distribution</h2>
+        <img src="data:image/png;base64,{{ topic_chart }}" alt="Topic Distribution">
+    {% endif %}
+</body>
+</html>

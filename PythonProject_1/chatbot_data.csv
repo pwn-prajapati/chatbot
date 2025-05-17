@@ -1,0 +1,8 @@
+Timestamp,User Query,Bot Response,Sentiment,Topic,Rating
+2025-02-17 10:00:00,"What is Python?","Python is a programming language.","Positive","Programming",5
+2025-02-17 10:05:00,"How to train a model?","You can use TensorFlow or PyTorch.","Neutral","Machine Learning",4
+2025-02-17 10:10:00,"Tell me a joke.","Why don’t scientists trust atoms? Because they make up everything!","Positive","Humor",5
+2025-02-17 10:15:00,"What is AI?","AI stands for Artificial Intelligence.","Positive","Artificial Intelligence",4
+2025-02-17 10:20:00,"What is deep learning?","It is a subset of ML.","Neutral","Machine Learning",5
+2025-02-17 10:25:00,"What is Python used for?","Used in web dev, AI, and automation.","Positive","Programming",4
+2025-02-17 10:30:00,"Who is Alan Turing?","A pioneer in computer science.","Positive","History",5
